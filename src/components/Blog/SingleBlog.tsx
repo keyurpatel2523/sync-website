@@ -1,4 +1,4 @@
-import { Link } from "@/routing";
+import Link from "next/link";
 import { Blog } from "@/types/blog";
 import Image from "next/image";
 

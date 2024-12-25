@@ -1,6 +1,6 @@
 "use client";
 
-import { Link } from "@/routing";
+import Link from "next/link";
 import Image from 'next/image';
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/home" className="mb-8 inline-block">
+                <Link href="/" className="mb-8 inline-block">
                   <Image
                     src="/images/logo/logo-2.svg"
                     alt="logo"
@@ -33,7 +33,7 @@ const Footer = () => {
                 </p>
                 <div className="flex items-center">
                   <a
-                    href="/home"
+                    href="/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -53,7 +53,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/home"
+                    href="/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -75,7 +75,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/home"
+                    href="/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -91,7 +91,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="/home"
+                    href="/"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -126,7 +126,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/home"
+                      href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Pricing
@@ -152,7 +152,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/home"
+                      href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       TOS
@@ -160,7 +160,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/home"
+                      href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Privacy Policy
@@ -168,7 +168,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/home"
+                      href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Refund Policy
@@ -194,7 +194,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/home"
+                      href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Terms of Use

@@ -12,10 +12,12 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const locale = await getLocale();
+
   const messages = await getMessages();
 
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang={locale}>
       {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -23,7 +25,6 @@ export default async function RootLayout({
       <head />
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <Header />
@@ -38,5 +39,5 @@ export default async function RootLayout({
 }
 
 import { Providers } from "./providers";import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getLocale, getMessages } from "next-intl/server";
 

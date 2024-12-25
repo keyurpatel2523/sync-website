@@ -2,6 +2,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
 import { Metadata } from "next";
+import { useTranslations } from "next-intl";
 
 export const metadata: Metadata = {
   title: "Contact Page | Free Next.js Template for Startup and SaaS",
@@ -10,11 +11,13 @@ export const metadata: Metadata = {
 };
 
 const ContactPage = () => {
+  const t = useTranslations("contact_us");
+
   return (
     <>
       <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Contact Us"
+        description={t("contact_us_description")}
       />
 
       <Contact />

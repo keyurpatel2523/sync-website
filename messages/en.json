@@ -1,6 +1,37 @@
 {
-  "HomePage": {
+  "home": {
     "title": "Hello world!",
-    "about": "Free and Open-Source Next.js"
+    "about": "Unlock Your Digital Future",
+    "discover_more": "Discover More",
+    "our_services": {
+      "our_services_title": "Our Services",
+      "our_services_description": "Explore our comprehensive range of services, designed to propel your business forward with the latest technology advancements.",
+      "web_development": "Web Development",
+      "web_development_description": "Transform your business with our cutting-edge web development solutions, offering unparalleled performance, scalability, and user experience.",
+      "app_development": "App Development",
+      "app_development_description": "From conceptualization to deployment, our app development services provide a seamless experience with cutting-edge technology, innovative design, and unparalleled performance.",
+      "logo_design": "Logo Design",
+      "logo_design_description": "Create a lasting impression with our custom logo design services. From concept to completion, our expert designers will craft a unique visual identity that accurately represents your brand values and resonates with your target audience.",
+      "banner_design": "Banner Design",
+      "banner_design_description": "Elevate your brand's visibility and impact with our expert banner design services. From conceptualization to delivery, our designers craft stunning visuals that captivate audiences, drive engagement, and leave a lasting impression.",
+      "it_consultancy": "IT Consultancy",
+      "it_consultancy_description": "Elevate your brand's visibility and impact with our expert banner design services. From conceptualization to delivery, our designers craft stunning visuals that captivate audiences, drive engagement, and leave a lasting impression.",
+      "web_hosting": "Web Hosting",
+      "web_hosting_description": "Experience lightning-fast load times, reliable uptime, and unparalleled security with our premium web hosting services, designed to take your online presence to the next level."
+    },
+    "banner_description": "Experience the cutting-edge technology solutions that propel your business forward. Explore the limitless possibilities with SYNC Innovative Solution."
+  },
+  "testimonials": {
+    "title": "What Our Clients Says",
+    "description": "Hear from our satisfied customers about their experience with SYNC Innovative Solution"
+  },
+  "contact_us": {
+    "contact_us": "Contact Us",
+    "send_message": "Send Message",
+    "description": "If you have any questions, please feel free to contact us.",
+    "get_in_touch": "Get in Touch",
+    "get_in_touch_message": "Our team will get back to you ASAP via email.",
+    "contact_us_information": "Let us help you build the future with technology.",
+    "contact_us_description": "We’d love to hear from you! Whether you’re looking for innovative IT solutions, have a question, or just want to say hello, feel free to reach out."
   }
 }

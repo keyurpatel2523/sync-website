@@ -1,5 +1,5 @@
+import { Link } from "@/routing";
 import Image from "next/image";
-import Link from "next/link";
 
 const RelatedPost = ({
   image,

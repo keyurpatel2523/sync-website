@@ -72,7 +72,7 @@ const Header = () => {
                 />
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center px-4 justify-center">
               <div>
                 <button
                   onClick={navbarToggleHandler}
